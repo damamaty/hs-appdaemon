@@ -242,7 +242,7 @@ class Pults(hass.Hass):
         self.turn_off("light.bedroom_child_switcher")
         self.turn_off("light.bedroom_parent_switcher")
         self.turn_off("light.underbed_switcher")
-        self.turn_off("light.child_desktop_lamp")
+        self.turn_off("light.bedroom_desktop_lamp")
 
         self.turn_off("light.kitchen_light")
         self.turn_off("light.shower_light_switcher")
